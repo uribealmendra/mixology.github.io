@@ -11,6 +11,24 @@
 </head>
 
 <body>
+  <section class="menu rotate">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid justify-content-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="Search.html">SEARCH</a>
+            <a class="nav-link" href="Home.html">HOME</a>
+            <a class="nav-link" href="Perfil.html">PROFILE</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
   <section style="margin:20px 30px 25px 40px;">
   </section>
 
@@ -18,340 +36,324 @@
     <h3> 101</h3>
   </div>
 
-  <section class="menu">
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">SEARCH</a>
-            <a class="nav-link" href="#">HOME</a>
-            <a class="nav-link disabled">PROFILE</a>
+
+  <form class="d-flex margin" role="search">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+
+  <div class="container text-center ">
+    <div class="row">
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="IMG/d5.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Aperol Spritz</h5>
+            <p class="card-text">Difficulty ***</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Recipe
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable  modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aperol Spritz</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-4"><img src="IMG/d5.jpeg" class="card-img-top" alt="..."></div>
+                        <div class="col-md-4 ms-auto"></div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-sm-9">
+                          <h3>INGREDIENTS</h3>
+                          <div class="row">
+                            <div class="col-8 col-sm-6">
+                              <ul class="list-group">
+                                <li class="list-group-item">3 ounces</li>
+                                <li class="list-group-item">2 ounces</li>
+                                <li class="list-group-item">1 ounce</li>
+                                <li class="list-group-item">Garnish</li>
+                              </ul>
+                            </div>
+                            <div class="col-4 col-sm-6">
+                              <ul class="list-group">
+                                <li class="list-group-item">Prosecco</li>
+                                <li class="list-group-item">Aperol</li>
+                                <li class="list-group-item">Club soda</li>
+                                <li class="list-group-item">Orange slice</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h3>PREPARATION</h3>
+                          <p>Add the tequila and then the orange juice to a chilled highball glass filled with ice.
+                            Top with the grenadine, which will sink to the bottom of the glass, creating a layered
+                            effect.
+                            Garnish with an orange slice and a cherry.</p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4"><img src="IMG/aboutaperol.jpeg" class="card-img-top" alt="..."></div>
+                        <div class="col-md-4 ms-auto">
+                          <h3>ABOUT</h3>
+                          <p>Aperol traces its roots back to Padua, Italy. The aperitivo—an appetite-whetting beverage
+                            designed to be consumed before dinner—was created in 1919. Its bittersweet flavor,
+                            aromatic botanicals and easygoing alcohol content (it’s only 11% ABV) made it the perfect
+                            choice for pre-dinner sipping.
+                            While the Aperol Spritz has been enjoyed in Italy for more than a century, it didn’t reach
+                            mass appeal in the United States until the 2010s, as drinkers became more familiar with
+                            aperitivos and lower-alcohol drinks. Today, it’s a staple at cocktail bars, Italian and
+                            non-Italian restaurants, and it can be found almost anywhere that serves brunch on sunny
+                            patios.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h3>Watch</h3>
+                          <div class="ratio ratio-16x9">
+                            <iframe width="853" height="480" src="https://www.youtube.com/embed/j8yArK13Q_E"
+                              title="Master The Classics: Aperol Spritz" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
-    </nav>
 
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+      <div class="col">
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="IMG/d2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tequila Sunrise</h5>
+            <p class="card-text">Difficulty ***</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+              Recipe
+            </button>
 
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/d5.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Aperol Spritz</h5>
-              <p class="card-text">Difficulty ***</p>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Recipe
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable  modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Aperol Spritz</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="container-fluid">
-                        <div class="row">
-                          <div class="col-md-4"><img src="IMG/d5.jpeg" class="card-img-top" alt="..."></div>
-                          <div class="col-md-4 ms-auto"></div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-sm-9">
-                            <h3>INGREDIENTS</h3>
-                            <div class="row">
-                              <div class="col-8 col-sm-6">
-                                <ul class="list-group">
-                                  <li class="list-group-item">3 ounces</li>
-                                  <li class="list-group-item">2 ounces</li>
-                                  <li class="list-group-item">1 ounce</li>
-                                  <li class="list-group-item">Garnish</li>
-                                </ul>
-                              </div>
-                              <div class="col-4 col-sm-6">
-                                <ul class="list-group">
-                                  <li class="list-group-item">Prosecco</li>
-                                  <li class="list-group-item">Aperol</li>
-                                  <li class="list-group-item">Club soda</li>
-                                  <li class="list-group-item">Orange slice</li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4">
-                            <h3>PREPARATION</h3>
-                            <p>Add the tequila and then the orange juice to a chilled highball glass filled with ice.
-                              Top with the grenadine, which will sink to the bottom of the glass, creating a layered
-                              effect.
-                              Garnish with an orange slice and a cherry.</p>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4"><img src="IMG/aboutaperol.jpeg" class="card-img-top" alt="..."></div>
-                          <div class="col-md-4 ms-auto">
-                            <h3>ABOUT</h3>
-                            <p>Aperol traces its roots back to Padua, Italy. The aperitivo—an appetite-whetting beverage
-                              designed to be consumed before dinner—was created in 1919. Its bittersweet flavor,
-                              aromatic botanicals and easygoing alcohol content (it’s only 11% ABV) made it the perfect
-                              choice for pre-dinner sipping.
-                              While the Aperol Spritz has been enjoyed in Italy for more than a century, it didn’t reach
-                              mass appeal in the United States until the 2010s, as drinkers became more familiar with
-                              aperitivos and lower-alcohol drinks. Today, it’s a staple at cocktail bars, Italian and
-                              non-Italian restaurants, and it can be found almost anywhere that serves brunch on sunny
-                              patios.
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4">
-                            <h3>Watch</h3>
-                            <div class="ratio ratio-16x9">
-                              <iframe width="853" height="480" src="https://www.youtube.com/embed/j8yArK13Q_E"
-                                title="Master The Classics: Aperol Spritz" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            </div>
-                          </div>
-                        </div>
-
-
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+              aria-hidden="true">
+              <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable  modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1">Tequila Sunrise</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-4"><img src="IMG/d2.jpeg" class="card-img-top" alt="..."></div>
+                        <div class="col-md-4 ms-auto"></div>
                       </div>
+
+                      <div class="row">
+                        <div class="col-sm-9">
+                          <h3>INGREDIENTS</h3>
+                          <div class="row">
+                            <div class="col-8 col-sm-6">
+                              <ul class="list-group">
+                                <li class="list-group-item">2 ounces </li>
+                                <li class="list-group-item">4 ounces</li>
+                                <li class="list-group-item">1/4 ounce</li>
+                                <li class="list-group-item">Garnish</li>
+                                <li class="list-group-item">Garnish</li>
+                              </ul>
+                            </div>
+                            <div class="col-4 col-sm-6">
+                              <ul class="list-group">
+                                <li class="list-group-item">Blanco tequila </li>
+                                <li class="list-group-item">Orange juice (freshly sequeezed)</li>
+                                <li class="list-group-item">Grenadine</li>
+                                <li class="list-group-item">Orange slice</li>
+                                <li class="list-group-item">Cherry</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h3>PREPARATION</h3>
+                          <p>Add the tequila and then the orange juice to a chilled highball glass filled with ice.
+                            Top with the grenadine, which will sink to the bottom of the glass, creating a layered
+                            effect.
+                            Garnish with an orange slice and a cherry.</p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4"><img src="IMG/prep.jpeg" class="card-img-top" alt="..."></div>
+                        <div class="col-md-4 ms-auto">
+                          <h3>ABOUT</h3>
+                          <p>The Tequila Sunrise was created in the early 1970s by Bobby Lozoff and Billy Rice at the
+                            Trident bar in Sausalito, California. The cocktail achieved notoriety after a member of
+                            the Rolling Stones—in some tellings, it was Mick Jagger, and Keith Richards in
+                            others—tasted it at a party to kick off The Rolling Stones’ 1972 tour. The band began
+                            ordering it at stops across the country, and even dubbed the tour “the cocaine and Tequila
+                            Sunrise tour,” which helped to propel the drink’s popularity.
+                            In 1973, Jose Cuervo put the recipe on the back of its tequila bottles, and that same
+                            year, the Eagles released a song called “Tequila Sunrise” on their “Desperado” album.
+                            These infusions into popular culture resulted in the drink going mainstream, and it has
+                            been a part of the cocktail canon ever since.</p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h3>Watch</h3>
+                          <div class="ratio ratio-16x9">
+                            <iframe width="853" height="480" src="https://www.youtube.com/embed/1F96GArORtg"
+                              title="Master The Classics: Original Tequila Sunrise" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save </button>
-                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save </button>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
+
+          </div>
         </div>
 
-        <div class="col">
+      </div>
+      <div class="col">
 
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/d2.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Tequila Sunrise</h5>
-              <p class="card-text">Difficulty ***</p>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                Recipe
-              </button>
+        <div class="card" style="width: 18rem;">
+          <img src="IMG/d12.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Classic Martini</h5>
+            <p class="card-text">Difficulty ***</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              Recipe
+            </button>
 
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
-                aria-hidden="true">
-                <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable  modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel1">Tequila Sunrise</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="container-fluid">
-                        <div class="row">
-                          <div class="col-md-4"><img src="IMG/d2.jpeg" class="card-img-top" alt="..."></div>
-                          <div class="col-md-4 ms-auto"></div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-sm-9">
-                            <h3>INGREDIENTS</h3>
-                            <div class="row">
-                              <div class="col-8 col-sm-6">
-                                <ul class="list-group">
-                                  <li class="list-group-item">2 ounces </li>
-                                  <li class="list-group-item">4 ounces</li>
-                                  <li class="list-group-item">1/4 ounce</li>
-                                  <li class="list-group-item">Garnish</li>
-                                  <li class="list-group-item">Garnish</li>
-                                </ul>
-                              </div>
-                              <div class="col-4 col-sm-6">
-                                <ul class="list-group">
-                                  <li class="list-group-item">Blanco tequila </li>
-                                  <li class="list-group-item">Orange juice (freshly sequeezed)</li>
-                                  <li class="list-group-item">Grenadine</li>
-                                  <li class="list-group-item">Orange slice</li>
-                                  <li class="list-group-item">Cherry</li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4">
-                            <h3>PREPARATION</h3>
-                            <p>Add the tequila and then the orange juice to a chilled highball glass filled with ice.
-                              Top with the grenadine, which will sink to the bottom of the glass, creating a layered
-                              effect.
-                              Garnish with an orange slice and a cherry.</p>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4"><img src="IMG/prep.jpeg" class="card-img-top" alt="..."></div>
-                          <div class="col-md-4 ms-auto">
-                            <h3>ABOUT</h3>
-                            <p>The Tequila Sunrise was created in the early 1970s by Bobby Lozoff and Billy Rice at the
-                              Trident bar in Sausalito, California. The cocktail achieved notoriety after a member of
-                              the Rolling Stones—in some tellings, it was Mick Jagger, and Keith Richards in
-                              others—tasted it at a party to kick off The Rolling Stones’ 1972 tour. The band began
-                              ordering it at stops across the country, and even dubbed the tour “the cocaine and Tequila
-                              Sunrise tour,” which helped to propel the drink’s popularity.
-                              In 1973, Jose Cuervo put the recipe on the back of its tequila bottles, and that same
-                              year, the Eagles released a song called “Tequila Sunrise” on their “Desperado” album.
-                              These infusions into popular culture resulted in the drink going mainstream, and it has
-                              been a part of the cocktail canon ever since.</p>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4">
-                            <h3>Watch</h3>
-                            <div class="ratio ratio-16x9">
-                              <iframe width="853" height="480" src="https://www.youtube.com/embed/1F96GArORtg"
-                                title="Master The Classics: Original Tequila Sunrise" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            </div>
-                          </div>
-                        </div>
-
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+              aria-hidden="true">
+              <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable  modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Classic Martini</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-4"><img src="IMG/d12.jpeg" class="card-img-top" alt="..."></div>
+                        <div class="col-md-4 ms-auto"></div>
                       </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save </button>
+
+                      <div class="row">
+                        <div class="col-sm-9">
+                          <h3>INGREDIENTS</h3>
+                          <div class="row">
+                            <div class="col-8 col-sm-6">
+                              <ul class="list-group">
+                                <li class="list-group-item">2 1/2 ounces</li>
+                                <li class="list-group-item"> 1/2 ounce</li>
+                                <li class="list-group-item">1 dash</li>
+                                <li class="list-group-item">Garnish</li>
+                              </ul>
+                            </div>
+                            <div class="col-4 col-sm-6">
+                              <ul class="list-group">
+                                <li class="list-group-item">Gin</li>
+                                <li class="list-group-item">Dry vermouth</li>
+                                <li class="list-group-item">Orange bitters</li>
+                                <li class="list-group-item">Lemon twist</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h3>PREPARATION</h3>
+                          <p>Add the gin, dry vermouth and orange bitters into a mixing glass with ice and stir until
+                            very cold.
+                            Strain into a chilled cocktail glass.
+                            Garnish with a lemon twist.</p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4"><img src="IMG/aboutmaritni.jpeg" class="card-img-top" alt="..."></div>
+                        <div class="col-md-4 ms-auto">
+                          <h3>ABOUT</h3>
+                          <p>Who mixed the world’s first Martini? It’s a good question, but you could stumble down a
+                            very deep, dark rabbit hole trying to find out. Was it a California prospector during the
+                            1849 Gold Rush or the barman at a flossy New York City hotel 50 years later? Most likely,
+                            the Martini is a cocktail that came onto the scene in multiple places at once, as
+                            bartenders began to experiment with gin and dry vermouth. Regardless, no origin story will
+                            leave you feeling as blissful and content as you will feel after drinking a classic,
+                            well-made Dry Martini.
+                            One fact we do know: The drink’s original form, according to early recipes, was sweet.
+                            Nineteenth-century cocktail books regularly called for Italian (sweet) vermouth. The Dry
+                            Martini took its current form around 1905, when the new order of the day was dry gin, dry
+                            vermouth and perhaps a dash of orange bitters for good measure.
+                          </p>
+                        </div>
+                      </div>
+                    
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h3>Watch</h3>
+                          <div class="ratio ratio-16x9">
+                            <iframe width="853" height="480" src="https://www.youtube.com/embed/75k7dsINNQ0"
+                              title="Beginners Guide for Making Martinis" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-
-        </div>
-        <div class="col">
-
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/d12.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Classic Martini</h5>
-              <p class="card-text">Difficulty ***</p>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                Recipe
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
-                aria-hidden="true">
-                <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable  modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel3">Classic Martini</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="container-fluid">
-                        <div class="row">
-                          <div class="col-md-4"><img src="IMG/d12.jpeg" class="card-img-top" alt="..."></div>
-                          <div class="col-md-4 ms-auto"></div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-sm-9">
-                            <h3>INGREDIENTS</h3>
-                            <div class="row">
-                              <div class="col-8 col-sm-6">
-                                <ul class="list-group">
-                                  <li class="list-group-item">2 1/2 ounces</li>
-                                  <li class="list-group-item"> 1/2 ounce</li>
-                                  <li class="list-group-item">1 dash</li>
-                                  <li class="list-group-item">Garnish</li>
-                                </ul>
-                              </div>
-                              <div class="col-4 col-sm-6">
-                                <ul class="list-group">
-                                  <li class="list-group-item">Gin</li>
-                                  <li class="list-group-item">Dry vermouth</li>
-                                  <li class="list-group-item">Orange bitters</li>
-                                  <li class="list-group-item">Lemon twist</li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4">
-                            <h3>PREPARATION</h3>
-                            <p>Add the gin, dry vermouth and orange bitters into a mixing glass with ice and stir until
-                              very cold.
-                              Strain into a chilled cocktail glass.
-                              Garnish with a lemon twist.</p>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4"><img src="IMG/aboutmaritni.jpeg" class="card-img-top" alt="..."></div>
-                          <div class="col-md-4 ms-auto">
-                            <h3>ABOUT</h3>
-                            <p>Who mixed the world’s first Martini? It’s a good question, but you could stumble down a
-                              very deep, dark rabbit hole trying to find out. Was it a California prospector during the
-                              1849 Gold Rush or the barman at a flossy New York City hotel 50 years later? Most likely,
-                              the Martini is a cocktail that came onto the scene in multiple places at once, as
-                              bartenders began to experiment with gin and dry vermouth. Regardless, no origin story will
-                              leave you feeling as blissful and content as you will feel after drinking a classic,
-                              well-made Dry Martini.
-                              One fact we do know: The drink’s original form, according to early recipes, was sweet.
-                              Nineteenth-century cocktail books regularly called for Italian (sweet) vermouth. The Dry
-                              Martini took its current form around 1905, when the new order of the day was dry gin, dry
-                              vermouth and perhaps a dash of orange bitters for good measure.
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-4">
-                            <h3>Watch</h3>
-                            <div class="ratio ratio-16x9">
-                              <iframe width="853" height="480" src="https://www.youtube.com/embed/75k7dsINNQ0"
-                                title="Beginners Guide for Making Martinis" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save</button>
-                    </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
                   </div>
                 </div>
               </div>
@@ -359,131 +361,132 @@
           </div>
         </div>
       </div>
-
-    </div>
     </div>
 
-    <div class="row">
-      <div class="col">
 
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d4.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Paloma</h5>
-            <p class="card-text">Difficulty ***</p>
-            <a href="#" class="btn btn-primary">Recipe</a>
-          </div>
+
+
+  <div class="row">
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d4.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paloma</h5>
+          <p class="card-text">Difficulty ***</p>
+          <a href="#" class="btn btn-primary">Recipe</a>
         </div>
-
       </div>
-      <div class="col">
-
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d1.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Limoncello</h5>
-            <p class="card-text">Difficulty ***</p>
-            <a href="#" class="btn btn-primary">Recipe</a>
-          </div>
-        </div>
-
-      </div>
-      <div class="col">
-
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d6.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Traditional Margarita</h5>
-            <p class="card-text">Difficulty ***</p>
-            <a href="#" class="btn btn-primary">Recipe</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d7.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Strawberry Gin</h5>
-            <p class="card-text">Difficulty ***</p>
-            <a href="#" class="btn btn-primary">Recipe</a>
-          </div>
-        </div>
-
-      </div>
-      <div class="col">
-
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d8.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pretty Juice</h5>
-            <p class="card-text"> ***</p>
-            <a href="#" class="btn Difficultybtn-primary">Recipe</a>
-          </div>
-        </div>
-
-      </div>
-      <div class="col">
-
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d9.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Passion Margarita</h5>
-            <p class="card-text">Difficulty ***</p>
-            <a href="#" class="btn btn-primary">Recipe</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d10.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Orange Vodka</h5>
-            <p class="card-text">Difficulty ***</p>
-            <a href="#" class="btn btn-primary">Recipe</a>
-          </div>
-        </div>
-
-      </div>
-      <div class="col">
-
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d11.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pink Gin</h5>
-            <p class="card-text">Difficulty ***</p>
-            <a href="#" class="btn btn-primary">Recipe</a>
-          </div>
-        </div>
-
-      </div>
-      <div class="col">
-
-        <div class="card" style="width: 18rem;">
-          <img src="IMG/d3.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Grapefruit Martini</h5>
-            <p class="card-text">Difficulty ***</p>
-            <a href="#" class="btn btn-primary">Recipe</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
 
     </div>
-    </div>
+    <div class="col">
 
-  </section>
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Limoncello</h5>
+          <p class="card-text">Difficulty ***</p>
+          <a href="#" class="btn btn-primary">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d6.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Traditional Margarita</h5>
+          <p class="card-text">Difficulty ***</p>
+          <a href="#" class="btn btn-primary">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d7.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Strawberry Gin</h5>
+          <p class="card-text">Difficulty ***</p>
+          <a href="#" class="btn btn-primary">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d8.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pretty Juice</h5>
+          <p class="card-text"> ***</p>
+          <a href="#" class="btn Difficultybtn-primary">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d9.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Passion Margarita</h5>
+          <p class="card-text">Difficulty ***</p>
+          <a href="#" class="btn btn-primary">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d10.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Orange Vodka</h5>
+          <p class="card-text">Difficulty ***</p>
+          <a href="#" class="btn btn-primary">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d11.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pink Gin</h5>
+          <p class="card-text">Difficulty ***</p>
+          <a href="#" class="btn btn-primary">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="IMG/d3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Grapefruit Martini</h5>
+          <p class="card-text">Difficulty ***</p>
+          <a href="#" class="btn btn-primary">Recipe</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+  </div>
+</div>
+
 
 
 
